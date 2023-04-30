@@ -11,7 +11,7 @@ function myButtonClicked() {
 
   // Get the selected item and quantity values
   const selectedItem = document.getElementById("guessed-number").value
-  const quantity = parseInt(document.getElementById("hours").value)
+  const quantity = parseInt(document.getElementById("quantity").value)
 
   // Create a dictionary to map grocery items to their prices
   const prices = {
