@@ -37,7 +37,7 @@
         </div>
       </header>
       <main class="mdl-layout__content">
-        <h2>Select a fruit/vegetable</h2>
+        <h2>Select an item</h2>
         <!-- Simple Select with arrow -->
         <div class="mdl-textfield mdl-js-textfield getmdl-select">
           <input
@@ -52,45 +52,32 @@
             >keyboard_arrow_down</i
           >
           <label for="sample2" class="mdl-textfield__label"
-            >Number Selected</label
+            >Item selected</label
           >
           <ul for="sample2" class="mdl-menu mdl-menu--bottom-left mdl-js-menu">
-            <li class="mdl-menu__item" data-val="one">Apple</li>
-            <li class="mdl-menu__item" data-val="two">Tomato</li>
-            <li class="mdl-menu__item" data-val="three">Cucumber</li>
-            <li class="mdl-menu__item" data-val="four">Potato</li>
-            <li class="mdl-menu__item" data-val="five">strawberry</li>
-            <li class="mdl-menu__item" data-val="six">peach</li>
+            <li class="mdl-menu__item" data-val="one">Apple $0.50</li>
+            <li class="mdl-menu__item" data-val="two">Banana $0.25</li>
+            <li class="mdl-menu__item" data-val="three">Bread $2.00</li>
+            <li class="mdl-menu__item" data-val="four">Milk $1.50</li>
           </ul>
         </div>
         <br />
-        <h2>Select a quantity</h2>
-        <!-- Simple Select with arrow -->
-        <div class="mdl-textfield mdl-js-textfield getmdl-select">
-          <input
-            type="text"
-            value=""
-            class="mdl-textfield__input"
-            id="guessed-number"
-            readonly
-          />
-          <input type="hidden" value="" name="guessed-number" />
-          <i class="mdl-icon-toggle__label material-icons"
-            >keyboard_arrow_down</i
-          >
-          <label for="sample2" class="mdl-textfield__label"
-            >Number Selected</label
-          >
-          <ul for="sample2" class="mdl-menu mdl-menu--bottom-left mdl-js-menu">
-            <li class="mdl-menu__item" data-val="one">1</li>
-            <li class="mdl-menu__item" data-val="two">2</li>
-            <li class="mdl-menu__item" data-val="three">3</li>
-            <li class="mdl-menu__item" data-val="four">4</li>
-            <li class="mdl-menu__item" data-val="five">5</li>
-            <li class="mdl-menu__item" data-val="six">6</li>
-          </ul>
-        </div>
-        <br />
+        <!-- Simple Textfield -->
+        <form action="#">
+          <p>Enter a quantity</p>
+          <div class="mdl-textfield mdl-js-textfield">
+            <input
+              class="mdl-textfield__input"
+              type="text"
+              pattern="-?[0-9]*(\.[0-9]+)?"
+              id="hours"
+            />
+            <label class="mdl-textfield__label" for="quantity"
+              >quantity...</label
+            >
+            <span class="mdl-textfield__error">Input is not a number!</span>
+          </div>
+        </form>
         <!-- Raised button with ripple -->
         <button
           class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent"
@@ -101,8 +88,14 @@
         <div id="finalTotal">
           <br />
         </div>
+        <div id="subTotal">
+          <br />
+        </div>
+        <div id="tax">
+          <br />
+        </div>
         <div id="fanta-bottle">
-          <img src="./images/lesson1.gif" alt="Fanta" />
+          <img src="./images/groceries-removebg-preview.png" alt="Fanta" />
         </div>
       </main>
     </div>

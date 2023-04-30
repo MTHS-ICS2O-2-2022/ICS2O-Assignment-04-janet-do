@@ -8,19 +8,32 @@
 
 function myButtonClicked() {
   const deductions = 0.13
-  // input
-  const item = parseInt(document.getElementById("item").value)
-  const quantity = parseInt(document.getElementById("quantity").value)
 
-  // process
-  const subTotal = item * quantity
-  const tax = item * quantity * deductions
-  const finalTotal = subTotal + tax
+  // Get the selected item and quantity values
+  const selectedItem = document.getElementById("guessed-number").value
+  const quantity = parseInt(document.getElementById("hours").value)
 
-  // output
+  // Create a dictionary to map grocery items to their prices
+  const prices = {
+    "Apple $0.50": 0.5,
+    "Banana $0.25": 0.25,
+    "Bread $2.00": 2.0,
+    "Milk $1.50": 1.5,
+  }
+
+  // Calculate the total cost based on the selected item and quantity
+  let totalCost = 0
+  if (selectedItem in prices) {
+    const itemPrice = prices[selectedItem]
+    totalCost = itemPrice * quantity
+  }
+
+  // Display the total cost to the user
   document.getElementById("subTotal").innerHTML =
-    "Sub total is:" + subTotal.toFixed(2)
+    "Sub total is: $" + totalCost.toFixed(2)
+  const tax = totalCost * deductions
+  const finalTotal = totalCost + tax
   document.getElementById("finalTotal").innerHTML =
-    "Your final total is:" + finalTotal.toFixed(2)
+    "Your final total is: $" + finalTotal.toFixed(2)
   document.getElementById("tax").innerHTML = "Tax: $" + tax.toFixed(2)
 }
