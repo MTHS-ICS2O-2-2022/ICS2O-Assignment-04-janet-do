@@ -13,7 +13,7 @@ function myButtonClicked() {
   const selectedItem = document.getElementById("guessed-number").value
   const quantity = parseInt(document.getElementById("quantity").value)
 
-  // Create a dictionary to map grocery items to their prices
+  // Create a dictionary to map grocery items to their prices source: https://blog.hubspot.com/website/javascript-dictionary
   const prices = {
     "Apple $0.50": 0.5,
     "Banana $0.25": 0.25,
@@ -21,11 +21,13 @@ function myButtonClicked() {
     "Milk $1.50": 1.5,
   }
 
-  // Calculate the total cost based on the selected item and quantity
+  // Calculate the total cost based on the selected item and quantity source: https://blog.hubspot.com/website/javascript-dictionary
   let totalCost = 0
   if (selectedItem in prices) {
     const itemPrice = prices[selectedItem]
     totalCost = itemPrice * quantity
+  } else {
+    // error message
   }
 
   // Display the total cost to the user
