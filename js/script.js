@@ -26,8 +26,6 @@ function myButtonClicked() {
   if (selectedItem in prices) {
     const itemPrice = prices[selectedItem]
     totalCost = itemPrice * quantity
-  } else {
-    // error message
   }
 
   // Display the total cost to the user
