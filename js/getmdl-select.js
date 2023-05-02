@@ -2,7 +2,7 @@
 //
 // Created by: Janet Do
 // Created on: Sep 2020
-// This file generates a random number generator
+// This file generates a dropdown menu
 {
   ;("use strict")
   ;(function () {
