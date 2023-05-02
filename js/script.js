@@ -10,7 +10,7 @@ function myButtonClicked() {
   const deductions = 0.13
 
   // Get the selected item and quantity values
-  const selectedItem = document.getElementById("guessed-number").value
+  const selectedItem = document.getElementById("selected-item").value
   const quantity = parseInt(document.getElementById("quantity").value)
 
   // Create a dictionary to map grocery items to their prices source: https://blog.hubspot.com/website/javascript-dictionary

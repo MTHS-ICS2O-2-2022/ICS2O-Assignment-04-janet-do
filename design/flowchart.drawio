@@ -1,62 +1,56 @@
 <mxfile host="65bd71144e">
     <diagram id="HIP3nbAZw_EuaXWnEj3U" name="Page-1">
-        <mxGraphModel dx="1086" dy="751" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="1086" dy="743" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
-                <mxCell id="40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" target="9" edge="1">
-                    <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="120" y="170" as="sourcePoint"/>
-                    </mxGeometry>
+                <mxCell id="58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#E6EDF3;" edge="1" parent="1" source="6" target="9">
+                    <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="6" value="Start" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" parent="1" vertex="1">
-                    <mxGeometry x="20" y="140" width="100" height="60" as="geometry"/>
+                    <mxGeometry x="70" y="150" width="100" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="7" value="Stop" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" parent="1" vertex="1">
-                    <mxGeometry x="448.75" y="820" width="100" height="60" as="geometry"/>
+                    <mxGeometry x="422.5" y="810" width="100" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="48" style="edgeStyle=none;html=1;" parent="1" source="9" target="37" edge="1">
+                <mxCell id="48" style="edgeStyle=orthogonalEdgeStyle;html=1;rounded=0;" parent="1" source="9" target="37" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="9" value="Select item from&lt;br&gt;&amp;nbsp;dropdown menu" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
-                    <mxGeometry x="220" y="130" width="140" height="80" as="geometry"/>
+                    <mxGeometry x="210" y="140" width="140" height="80" as="geometry"/>
                 </mxCell>
                 <mxCell id="12" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" parent="1" source="13" target="7" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="13" value="Show final total subtotal and tax" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
-                    <mxGeometry x="440" y="680" width="122.5" height="50" as="geometry"/>
+                    <mxGeometry x="411.25" y="710" width="122.5" height="50" as="geometry"/>
                 </mxCell>
-                <mxCell id="55" value="" style="edgeStyle=none;html=1;" parent="1" source="19" edge="1">
-                    <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="495" y="550" as="targetPoint"/>
-                    </mxGeometry>
+                <mxCell id="57" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#E6EDF3;rounded=0;" edge="1" parent="1" source="19" target="41">
+                    <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="19" value="&lt;div style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;font style=&quot;&quot; color=&quot;#e6edf3&quot;&gt;if (selectedItem in prices)&lt;/font&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="412.5" y="360" width="175" height="150" as="geometry"/>
+                <mxCell id="19" value="&lt;div style=&quot;font-size: 14px; line-height: 19px;&quot;&gt;&lt;font color=&quot;#1f2021&quot;&gt;if (selectedItem in prices)&lt;/font&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="402.5" y="380" width="140" height="120" as="geometry"/>
                 </mxCell>
-                <mxCell id="50" value="" style="edgeStyle=none;html=1;" parent="1" source="37" target="49" edge="1">
+                <mxCell id="59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontColor=#E6EDF3;" edge="1" parent="1" source="37" target="49">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="37" value="Select quantity" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
-                    <mxGeometry x="430" y="132.5" width="130" height="77.5" as="geometry"/>
+                    <mxGeometry x="407.5" y="141.25" width="130" height="77.5" as="geometry"/>
                 </mxCell>
                 <mxCell id="45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" parent="1" source="41" target="13" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="41" value="(item* quantity) = subtotal&lt;br&gt;subtotal * 13% = tax&lt;br&gt;subtotal + tax = final total&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="440" y="550" width="120" height="90" as="geometry"/>
+                    <mxGeometry x="412.5" y="560" width="120" height="90" as="geometry"/>
                 </mxCell>
-                <mxCell id="53" value="" style="edgeStyle=none;html=1;" parent="1" source="49" edge="1">
-                    <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="500" y="360" as="targetPoint"/>
-                    </mxGeometry>
+                <mxCell id="62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#E6EDF3;" edge="1" parent="1" source="49" target="19">
+                    <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="49" value="Calculate" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
-                    <mxGeometry x="440" y="250" width="120" height="60" as="geometry"/>
+                    <mxGeometry x="412.5" y="280" width="120" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="56" value="True" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-                    <mxGeometry x="485" y="515" width="50" height="30" as="geometry"/>
+                    <mxGeometry x="472.5" y="520" width="50" height="30" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
